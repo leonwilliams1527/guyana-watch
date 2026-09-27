@@ -1,0 +1,50 @@
+* { box-sizing: border-box; }
+html, body { padding: 0; margin: 0; }
+body { background: #f4f7f6; color: #13221d; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+button, a { font: inherit; } button { cursor: pointer; }
+.header { min-height: 74px; padding: 0 4%; background: #071c17; color: white; display: flex; align-items: center; gap: 35px; border-bottom: 3px solid #d6aa35; }
+.brand { display: flex; align-items: center; gap: 12px; min-width: 225px; }
+.brandMark { width: 42px; height: 42px; border-radius: 9px; background: #0a754f; border: 1px solid #d6aa35; display: flex; align-items: center; justify-content: center; font-weight: 900; }
+.brand h1 { margin: 0; font-size: 17px; letter-spacing: 1.2px; } .brand span { color: #a9bbb5; font-size: 10px; }
+nav { display: flex; align-self: stretch; flex: 1; }
+nav a { color: #afc0ba; text-decoration: none; padding: 0 13px; display: flex; align-items: center; gap: 7px; font-size: 13px; border-bottom: 3px solid transparent; }
+nav a:hover, nav a.active { color: white; border-bottom-color: #d6aa35; }
+.reportButton { background: #d6aa35; color: #10251e; border: none; border-radius: 7px; padding: 11px 17px; font-weight: 800; }
+main { width: min(1440px, 92%); margin: auto; padding: 34px 0 70px; }
+.hero { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 22px; }
+.hero h2 { font-size: 37px; margin: 5px 0 2px; letter-spacing: -1px; } .hero p { margin: 0; color: #607069; font-size: 15px; }
+.eyebrow { color: #74847e; font-size: 10px; font-weight: 900; letter-spacing: 1.5px; } .eyebrow.green { color: #08764f; }
+.liveStatus { background: white; border: 1px solid #dce4e1; padding: 9px 13px; border-radius: 30px; font-size: 12px; font-weight: 700; }
+.liveDot { width: 8px; height: 8px; background: #10a66a; display: inline-block; border-radius: 50%; margin-right: 7px; }
+.demoBanner { background: #fff8e6; border: 1px solid #ead99f; border-left: 4px solid #d6aa35; padding: 12px 15px; margin-bottom: 22px; border-radius: 6px; font-size: 12px; }
+.demoBanner strong { margin-right: 10px; } .demoBanner span { color: #685d3e; }
+.metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 18px; }
+.metricCard { background: white; border: 1px solid #dfe7e4; border-radius: 10px; padding: 20px; border-top: 4px solid #0b7652; }
+.metricCard.critical { border-top-color: #bb3030; } .metricCard.warning { border-top-color: #d59324; } .metricCard.success { border-top-color: #259765; }
+.metricTitle { display: block; font-size: 11px; color: #677770; font-weight: 800; text-transform: uppercase; }
+.metricCard strong { display: block; margin: 8px 0 3px; font-size: 30px; } .metricCard small { color: #7c8a85; }
+.priorityPanel { background: #132d25; color: white; border-radius: 10px; padding: 18px 20px; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 16px; margin-bottom: 18px; }
+.priorityIcon { width: 43px; height: 43px; background: #7d332c; border-radius: 8px; display: flex; align-items: center; justify-content: center; }
+.priorityPanel h3 { margin: 3px 0; font-size: 16px; } .priorityPanel p { margin: 0; color: #b9c7c2; font-size: 12px; }
+.priorityPanel button { background: transparent; border: 1px solid #64766f; color: white; border-radius: 6px; padding: 9px 13px; }
+.dashboardGrid { display: grid; grid-template-columns: .85fr 1.15fr; gap: 18px; margin-bottom: 18px; } .bottomGrid { grid-template-columns: 1.15fr .85fr; }
+.panel { background: white; border: 1px solid #dfe7e4; border-radius: 10px; padding: 20px; }
+.panelHeader { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 20px; }
+.panel h2 { margin: 4px 0 0; font-size: 19px; }
+.textButton { border: none; background: transparent; color: #087650; font-size: 12px; font-weight: 800; }
+.category { margin-bottom: 13px; } .categoryRow { display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 5px; }
+.bar { background: #edf1ef; height: 6px; border-radius: 10px; overflow: hidden; } .barFill { height: 100%; background: #16805a; border-radius: 10px; }
+table { width: 100%; border-collapse: collapse; } th { color: #7c8a85; text-align: left; font-size: 10px; text-transform: uppercase; padding: 8px; }
+td { padding: 11px 8px; border-top: 1px solid #edf0ef; font-size: 12px; }
+.regionName { display: flex; align-items: center; gap: 8px; }
+.regionNumber { width: 25px; height: 25px; background: #e9f2ee; color: #087650; display: inline-flex; align-items: center; justify-content: center; border-radius: 5px; font-weight: 900; }
+.priority, .severity, .promiseStatus { padding: 5px 8px; border-radius: 20px; font-size: 10px; font-weight: 800; }
+.priority.high, .severity.high { background: #fde7df; color: #9d3e2d; } .priority.medium, .severity.medium { background: #fff3d8; color: #8b6417; }
+.severity.critical, .promiseStatus.delayed { background: #f7dddd; color: #a12828; } .promiseStatus.ontrack { background: #def2e8; color: #147149; } .promiseStatus.review { background: #fff1d2; color: #8a6319; }
+.reportItem, .promiseItem { display: flex; align-items: flex-start; gap: 13px; padding: 13px 0; border-bottom: 1px solid #edf0ef; }
+.reportId { font-size: 10px; color: #087650; font-weight: 900; min-width: 58px; } .reportContent { flex: 1; }
+.reportContent strong, .promiseItem strong { display: block; font-size: 12px; } .reportContent > span, .promiseItem div span { display: block; color: #788681; font-size: 11px; margin-top: 3px; }
+.reportMeta { display: flex; gap: 13px; margin-top: 6px; font-size: 10px; color: #788681; } .promiseItem { justify-content: space-between; }
+.demoNotice { font-size: 9px; color: #97a39f; margin: 16px 0 0; }
+@media (max-width: 1100px) { nav { display: none; } .header { justify-content: space-between; } .metrics { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 760px) { main { width: 94%; padding-top: 22px; } .brand span { display: none; } .reportButton { padding: 9px 11px; font-size: 11px; } .hero { align-items: flex-start; gap: 15px; flex-direction: column; } .hero h2 { font-size: 30px; } .metrics, .dashboardGrid, .bottomGrid { grid-template-columns: 1fr; } .priorityPanel { grid-template-columns: auto 1fr; } .priorityPanel button { grid-column: 1 / -1; } .tableWrap { overflow-x: auto; } .demoBanner span { display: block; margin-top: 4px; } }
