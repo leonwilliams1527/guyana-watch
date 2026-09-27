@@ -1,9 +1,1 @@
-export default function MetricCard({ title, value, description, type = "normal" }) {
-  return (
-    <div className={`metricCard ${type}`}>
-      <span className="metricTitle">{title}</span>
-      <strong>{value}</strong>
-      <small>{description}</small>
-    </div>
-  );
-}
+export default function MetricCard({title,value,description,type="normal"}){return <div className={`metricCard ${type}`}><span className="metricTitle">{title}</span><strong>{value}</strong><small>{description}</small></div>}

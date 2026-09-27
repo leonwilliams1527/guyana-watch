@@ -1,8 +1,14 @@
-# Guyana Watch — Phase 1
+# Guyana Watch — Phase 2
 
-National Accountability & Public Service Monitor prototype.
+Includes the complete Phase 1 dashboard plus Phase 2 National Issue Map.
 
-## Deploy
-Upload the contents of this project folder to the root of a GitHub repository, then import that repository into Vercel.
+## Phase 2
+- Clickable 10-region national map prototype
+- Region selector
+- City/town search and drill-down
+- Regional issue/critical totals
+- Data structure prepared for future community filtering and Executive Intelligence
 
-All Phase 1 statistics/reports are demonstration data for interface development only.
+All issue totals are demonstration data. Map marker placement is approximate in this prototype and is not intended as official GIS boundary data.
+
+Upload the contents of this folder to the root of the existing GitHub repository, replacing the matching Phase 1 files.
