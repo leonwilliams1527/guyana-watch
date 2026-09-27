@@ -1,14 +1,17 @@
-# Guyana Watch — Phase 2
+# Guyana Watch — Phase 3 Complete
 
-Includes the complete Phase 1 dashboard plus Phase 2 National Issue Map.
+This is a complete replacement package containing Phases 1–3.
 
-## Phase 2
-- Clickable 10-region national map prototype
-- Region selector
-- City/town search and drill-down
-- Regional issue/critical totals
-- Data structure prepared for future community filtering and Executive Intelligence
+## Phase 3 adds
+- Citizen issue reporting
+- Photo/video evidence UI
+- Verification-first workflow
+- Deep location model:
+  Guyana → Region → City/Town/Area → Community → Village/Settlement → Street/Road/Landmark → GPS
+- Map architecture changed from a hand-drawn country approximation to a real-GIS-ready street-level map container
+- Executive filtering architecture prepared for the future AI Executive Intelligence Center
 
-All issue totals are demonstration data. Map marker placement is approximate in this prototype and is not intended as official GIS boundary data.
+## Geographic data policy
+Sample place names are used only to demonstrate the hierarchy. The national production gazetteer should be populated from authoritative/open Guyana geographic sources rather than invented location lists.
 
-Upload the contents of this folder to the root of the existing GitHub repository, replacing the matching Phase 1 files.
+All issue totals are demonstration data.

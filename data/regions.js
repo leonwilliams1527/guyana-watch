@@ -22,3 +22,32 @@ export const places = [
   { name: "Mahdia", type: "Town", region: 8, issues: 17, critical: 2 },
   { name: "Lethem", type: "Town", region: 9, issues: 25, critical: 1 }
 ];
+
+
+export const locationHierarchy = {
+  4: [
+    { city: "Georgetown", communities: [
+      { name: "Albouystown", villages: ["Albouystown"], streets: ["La Penitence Street", "James Street", "Hunter Street"] },
+      { name: "Campbellville", villages: ["Campbellville"], streets: ["Sheriff Street", "Campbell Avenue", "William Street"] },
+      { name: "South Ruimveldt", villages: ["South Ruimveldt"], streets: ["Ruimveldt Avenue", "David Rose Street"] }
+    ]},
+    { city: "East Bank Demerara", communities: [
+      { name: "Diamond / Grove", villages: ["Diamond", "Grove"], streets: ["Public Road", "Access Road"] },
+      { name: "Providence", villages: ["Providence"], streets: ["Public Road", "Access Road"] }
+    ]}
+  ],
+  6: [
+    { city: "New Amsterdam", communities: [
+      { name: "New Amsterdam", villages: ["New Amsterdam"], streets: ["Main Street", "Republic Road"] }
+    ]},
+    { city: "Corriverton", communities: [
+      { name: "Corriverton", villages: ["Springlands", "Skeldon"], streets: ["Public Road", "Access Road"] }
+    ]}
+  ],
+  10: [
+    { city: "Linden", communities: [
+      { name: "Mackenzie", villages: ["Mackenzie"], streets: ["Republic Avenue", "Greenheart Street"] },
+      { name: "Wismar", villages: ["Wismar"], streets: ["Burnham Drive", "Blueberry Hill Road"] }
+    ]}
+  ]
+};
