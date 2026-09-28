@@ -51,3 +51,19 @@ The ingestion screen is an operational prototype: it demonstrates the workflow a
 This replacement package explicitly exposes `Intelligence` in the primary navigation between
 Projects & Promises and Evidence, includes it in the page view routing whitelist, and routes it
 to `IntelligenceCenter`. The Phase 5.1 Intelligence Center and Manual Entry functionality are included.
+
+# Phase 6 — Executive Intelligence
+Adds an Executive Command Center for leadership and authorized staff:
+- National / region filtering
+- Evidence-weighted AI priority queue
+- Explainable prioritization rationale
+- Recommended leadership actions
+- Linked project / commitment context
+- Verified citizen evidence counts and trends
+- Real-map priority visualization
+- Morning intelligence feed
+- Regional priority pulse
+- Executive briefing entry point
+- Explicit AI decision-support guardrail
+
+All current figures and recommendations are demonstration data. Production recommendations must be derived from verified records and preserve source provenance.
