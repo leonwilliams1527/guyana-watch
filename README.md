@@ -1,17 +1,8 @@
-# Guyana Watch — Phase 3 Complete
+# Guyana Watch — Phase 4 Complete
+Includes Phases 1–4.
 
-This is a complete replacement package containing Phases 1–3.
+Phase 4 adds the staff Verification Center, case queue, evidence review, verification checklist, assignments, internal notes, duplicate indicators, review actions and audit trail.
 
-## Phase 3 adds
-- Citizen issue reporting
-- Photo/video evidence UI
-- Verification-first workflow
-- Deep location model:
-  Guyana → Region → City/Town/Area → Community → Village/Settlement → Street/Road/Landmark → GPS
-- Map architecture changed from a hand-drawn country approximation to a real-GIS-ready street-level map container
-- Executive filtering architecture prepared for the future AI Executive Intelligence Center
+The Reports location section now also includes a drop-a-pin selector alongside Use Current Location and manual latitude/longitude. The pin selector is interactive in the prototype; real street coordinates will be generated once the production GIS basemap/geocoding layer is connected.
 
-## Geographic data policy
-Sample place names are used only to demonstrate the hierarchy. The national production gazetteer should be populated from authoritative/open Guyana geographic sources rather than invented location lists.
-
-All issue totals are demonstration data.
+All case data is demonstration data.

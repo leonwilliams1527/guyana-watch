@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Camera, MapPin, Upload, CheckCircle2, ShieldCheck } from "lucide-react";
 import { regions, locationHierarchy } from "@/data/regions";
+import LocationPinPicker from "@/components/LocationPinPicker";
 
 const categories = [
   "Roads & Bridges","Drainage & Flooding","Electricity","Water","Healthcare",
@@ -87,7 +88,7 @@ export default function ReportIssue() {
             <label>Latitude<input placeholder="GPS latitude" inputMode="decimal"/></label>
             <label>Longitude<input placeholder="GPS longitude" inputMode="decimal"/></label>
           </div>
-          <button type="button" className="locationBtn"><MapPin size={15}/> Use current location</button>
+          <button type="button" className="locationBtn"><MapPin size={15}/> Use current location</button><LocationPinPicker/>
 
           <h3>2. Issue details</h3>
           <div className="formGrid">
