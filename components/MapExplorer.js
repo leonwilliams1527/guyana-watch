@@ -2,7 +2,7 @@
 import {useMemo,useState} from "react";
 import {Search,MapPin,Layers3,Navigation} from "lucide-react";
 import RealGuyanaMap from "@/components/RealMapClient";
-import {knownPlaces} from "@/components/RealGuyanaMap";
+import {knownPlaces} from "@/data/mapPlaces";
 import {regions,locationHierarchy} from "@/data/regions";
 
 const regionCenters={1:[7.65,-59.75],2:[7.10,-58.55],3:[6.75,-58.35],4:[6.80,-58.15],5:[6.50,-57.85],6:[6.25,-57.52],7:[6.15,-59.20],8:[5.35,-59.35],9:[3.65,-59.55],10:[5.95,-58.30]};

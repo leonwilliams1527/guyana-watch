@@ -18,3 +18,8 @@ Complete replacement package containing Phases 1–4 plus the real-map upgrade.
 The current place search is deliberately limited to seeded Guyana locations. It does not use public Nominatim autocomplete. A production geocoder can be added behind a provider abstraction/caching layer.
 
 Map data © OpenStreetMap contributors.
+
+## Vercel prerender fix
+The Leaflet-dependent module is now loaded only through a client-only dynamic import.
+Plain Guyana place data was moved to `data/mapPlaces.js`, preventing Leaflet from being
+evaluated during Next.js server prerendering (`window is not defined`).
