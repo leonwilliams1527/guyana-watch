@@ -88,3 +88,17 @@ Current figures and records are demonstration data.
 Public and Executive contractor search, typo-tolerant fuzzy matching, contractor contract histories, source-coverage disclosure, automated Contractor/Awardee extraction highlighting, and manual contractor/contract ID entry.
 
 All contractor names, values and histories included in this prototype are demonstration data. Production records must be source-backed.
+
+# Phase 6.3 — Connected Intelligence Data Model
+Connects Projects & Promises, contracts, contractors, budgets/promises, Extraction Center and Executive Intelligence around canonical relationship records.
+
+Key behavior represented in this prototype:
+- Approved extraction data propagates to connected views rather than requiring re-entry.
+- Manual verified records use the same propagation path.
+- Projects show connected promise, budget, contract, contractor, agency, deadline and source.
+- Contractor profiles show connected Projects & Promises.
+- Intelligence Center includes a Connected Records view.
+- Missing source fields remain explicitly unpopulated instead of being invented.
+- Relationships require verification before publication.
+
+This remains a front-end/data-model prototype. Persistent live propagation requires the production database/API and ingestion workers.

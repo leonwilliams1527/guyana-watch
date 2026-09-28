@@ -3,6 +3,8 @@ import {useMemo,useState} from "react";
 import {Search,Landmark,MapPin,CalendarDays,WalletCards,AlertTriangle,CheckCircle2,Link2,FileText,Clock3,TrendingUp} from "lucide-react";
 import RealGuyanaMap from "@/components/RealMapClient";
 import {projects,projectActivity} from "@/data/projects";
+import {linksForProject} from "@/data/connectedRecords";
+import RecordConnections from "@/components/RecordConnections";
 import {regions} from "@/data/regions";
 
 export default function ProjectsTracker(){
@@ -19,6 +21,8 @@ export default function ProjectsTracker(){
     <div className="panel projectDetail"><div className="projectDetailTop"><div><span className="eyebrow">{selected.id} · {selected.type}</span><h3>{selected.title}</h3><p>{selected.agency}</p></div><b className={`projectStatus ${selected.status.replaceAll(" ","").toLowerCase()}`}>{selected.status}</b></div>
      <div className="projectFacts"><div><WalletCards/><span>Published budget</span><strong>{selected.budget}</strong></div><div><CalendarDays/><span>Announced</span><strong>{selected.announced}</strong></div><div><Clock3/><span>Target</span><strong>{selected.target}</strong></div><div><TrendingUp/><span>Progress</span><strong>{selected.progress}%</strong></div></div>
      <div className="promiseBox"><FileText size={18}/><div><span>PUBLIC COMMITMENT / SCOPE</span><p>{selected.promise}</p></div></div>
+     <h4>Promise · Budget · Contract · Contractor</h4>
+     <RecordConnections record={linksForProject(selected.id)[0]}/>
      <h4>Delivery milestones</h4><div className="milestones"><div className="done"><CheckCircle2/><span>Announcement captured</span></div><div className={selected.progress>0?"done":""}><CheckCircle2/><span>Work commenced</span></div><div className={selected.progress>=75?"done":""}><CheckCircle2/><span>Major works substantially complete</span></div><div className={selected.progress===100?"done":""}><CheckCircle2/><span>Completion independently checked</span></div></div>
      <h4>Citizen evidence connection</h4><div className="issueConnection"><Link2 size={20}/><div><strong>{selected.verifiedIssues} verified issues linked</strong><span>{selected.issues} total reports overlap this project's location/category. Staff should review causation before attributing any report to the project.</span></div><button>Review linked issues</button></div>
     </div>
