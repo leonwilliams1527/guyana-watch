@@ -16,6 +16,10 @@ export default function ReportIssue() {
   const [village,setVillage]=useState("Albouystown");
   const [street,setStreet]=useState("");
   const [submitted,setSubmitted]=useState(false);
+  const [lat,setLat]=useState(""); const [lng,setLng]=useState("");
+  const pin=(lat!==""&&lng!==""&&!Number.isNaN(Number(lat))&&!Number.isNaN(Number(lng)))?{lat:Number(lat),lng:Number(lng)}:null;
+  function pickPin(p){setLat(p.lat.toFixed(6));setLng(p.lng.toFixed(6));}
+  function useCurrent(){if(!navigator.geolocation){alert("Location is not supported by this browser.");return;} navigator.geolocation.getCurrentPosition(pos=>pickPin({lat:pos.coords.latitude,lng:pos.coords.longitude}),()=>alert("Location permission was not available."));}
 
   const cities=locationHierarchy[region] || [];
   const cityObj=cities.find(x=>x.city===city) || cities[0];
@@ -85,10 +89,11 @@ export default function ReportIssue() {
               <input list="streetOptions" value={street} onChange={e=>setStreet(e.target.value)} placeholder="Type exact street, road, bridge or landmark"/>
               <datalist id="streetOptions">{streets.map(x=><option key={x} value={x}/>)}</datalist>
             </label>
-            <label>Latitude<input placeholder="GPS latitude" inputMode="decimal"/></label>
-            <label>Longitude<input placeholder="GPS longitude" inputMode="decimal"/></label>
+            <label>Latitude<input value={lat} onChange={e=>setLat(e.target.value)} placeholder="GPS latitude" inputMode="decimal"/></label>
+            <label>Longitude<input value={lng} onChange={e=>setLng(e.target.value)} placeholder="GPS longitude" inputMode="decimal"/></label>
           </div>
-          <button type="button" className="locationBtn"><MapPin size={15}/> Use current location</button><LocationPinPicker/>
+          <button type="button" className="locationBtn" onClick={useCurrent}><MapPin size={15}/> Use current location</button>
+          <LocationPinPicker pin={pin} onPick={pickPin} onUseCurrent={useCurrent}/>
 
           <h3>2. Issue details</h3>
           <div className="formGrid">
