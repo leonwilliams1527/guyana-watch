@@ -1,0 +1,1 @@
+"use client"; import ContractorSearch from "@/components/ContractorSearch"; export default function ExecutiveContractors(){return <ContractorSearch executive/>}

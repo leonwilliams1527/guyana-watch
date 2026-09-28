@@ -83,3 +83,8 @@ Closes the Executive workflow loop.
 - Original issue/evidence/project history remains preserved
 
 Current figures and records are demonstration data.
+
+# Phase 6.2 — Contractor Intelligence
+Public and Executive contractor search, typo-tolerant fuzzy matching, contractor contract histories, source-coverage disclosure, automated Contractor/Awardee extraction highlighting, and manual contractor/contract ID entry.
+
+All contractor names, values and histories included in this prototype are demonstration data. Production records must be source-backed.
