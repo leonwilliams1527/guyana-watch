@@ -67,3 +67,19 @@ Adds an Executive Command Center for leadership and authorized staff:
 - Explicit AI decision-support guardrail
 
 All current figures and recommendations are demonstration data. Production recommendations must be derived from verified records and preserve source provenance.
+
+# Phase 6.1 — Resolution & Outcomes Center
+Closes the Executive workflow loop.
+
+- Executive priorities now have `Complete & record outcome`
+- Completion distinguishes leadership action from actual service resolution
+- Outcome choices: Resolved, Monitoring, Referred to Agency, Awaiting Government Response, No Further Action, Closed — Insufficient Evidence
+- Dedicated Outcomes navigation and Resolution & Outcomes Center
+- Full action/outcome record
+- Accountability timeline
+- Follow-up for unresolved cases
+- Reopen workflow for recurring issues
+- Outcome analytics and time-to-action
+- Original issue/evidence/project history remains preserved
+
+Current figures and records are demonstration data.

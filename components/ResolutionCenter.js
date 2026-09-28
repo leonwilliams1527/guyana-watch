@@ -1,0 +1,27 @@
+"use client";
+import {useMemo,useState} from "react";
+import {Search,CheckCircle2,Clock3,RotateCcw,Building2,Eye,MapPin,FileText,History,ShieldCheck} from "lucide-react";
+import {resolutionCases} from "@/data/resolutions";
+
+export default function ResolutionCenter(){
+ const [filter,setFilter]=useState("All"),[query,setQuery]=useState(""),[selected,setSelected]=useState(resolutionCases[0]);
+ const statuses=["All","Resolved","Monitoring","Awaiting Government Response","Referred to Agency","Reopened"];
+ const shown=useMemo(()=>resolutionCases.filter(x=>(filter==="All"||x.status===filter)&&(x.title.toLowerCase().includes(query.toLowerCase())||x.place.toLowerCase().includes(query.toLowerCase()))),[filter,query]);
+ return <section>
+  <div className="outcomesIntro"><div><span className="eyebrow green">PHASE 6.1 · CLOSED-LOOP ACCOUNTABILITY</span><h2>Resolution & Outcomes Center</h2><p>Track what leadership did, what happened afterward, and whether the underlying public-service issue was actually resolved.</p></div><div className="outcomeIntegrity"><ShieldCheck size={16}/> FULL HISTORY PRESERVED</div></div>
+  <div className="outcomeMetrics">{[["146","Resolved"],["31","Monitoring"],["22","Awaiting response"],["9","Reopened"],["4.8d","Avg. time to action"]].map(x=><div key={x[1]}><strong>{x[0]}</strong><span>{x[1]}</span></div>)}</div>
+  <div className="outcomeFilters"><div><Search size={14}/><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search issue, community or location"/></div><select value={filter} onChange={e=>setFilter(e.target.value)}>{statuses.map(x=><option key={x}>{x}</option>)}</select></div>
+  <div className="outcomeLayout">
+   <div className="panel outcomeList"><div className="outcomeTitle"><History size={16}/><strong>Completed executive actions</strong></div>{shown.map(x=><button key={x.id} onClick={()=>setSelected(x)} className={selected.id===x.id?"outcomeCard selected":"outcomeCard"}><div><span>{x.id} · {x.issueId}</span><b className={`outcomeStatus ${x.status.replaceAll(" ","").replace("—","").toLowerCase()}`}>{x.status}</b></div><strong>{x.title}</strong><small><MapPin size={11}/>{x.place}</small><p>{x.action}</p></button>)}</div>
+   <div className="panel outcomeDetail"><div className="outcomeDetailHead"><div><span className="eyebrow">{selected.id} · ORIGINAL {selected.issueId}</span><h3>{selected.title}</h3><p><MapPin size={12}/>{selected.place}</p></div><b className="outcomeStatus">{selected.status}</b></div>
+    <div className="outcomeFacts"><div><span>Action owner</span><strong>{selected.owner}</strong></div><div><span>Action date</span><strong>{selected.actionDate}</strong></div><div><span>Closed date</span><strong>{selected.closedDate}</strong></div><div><span>Evidence</span><strong>{selected.evidence} files</strong></div></div>
+    <div className="actionOutcome"><div><span>ACTION TAKEN</span><p>{selected.action}</p></div><div><span>CURRENT OUTCOME</span><p>{selected.outcome}</p></div></div>
+    <h4>Accountability timeline</h4><div className="outcomeTimeline"><div className="done"><i/><span><b>Citizen report verified</b><small>Evidence and location established</small></span></div><div className="done"><i/><span><b>Executive priority reviewed</b><small>Leadership action selected</small></span></div><div className="done"><i/><span><b>Action completed</b><small>{selected.actionDate}</small></span></div><div className={selected.status==="Resolved"?"done":""}><i/><span><b>Underlying issue resolved</b><small>{selected.status==="Resolved"?selected.closedDate:"Not yet confirmed"}</small></span></div></div>
+    <div className="outcomeLinks"><div><Building2/><span>Linked project</span><strong>{selected.project}</strong></div><div><FileText/><span>Original evidence</span><strong>{selected.evidence} supporting files</strong></div></div>
+    {selected.status!=="Resolved"&&<div className="followUpBar"><Eye size={16}/><div><strong>Case remains active after executive action</strong><span>Continue monitoring until the underlying issue reaches a verified final outcome.</span></div><button>Open follow-up</button></div>}
+    {selected.status==="Resolved"&&<div className="reopenBar"><RotateCcw size={16}/><div><strong>Problem returned?</strong><span>New verified evidence can reopen this case without losing its original history.</span></div><button>Reopen case</button></div>}
+   </div>
+   <aside className="panel outcomeSide"><div className="outcomeTitle"><Clock3 size={16}/><strong>Outcome analytics</strong></div><div className="analyticsBlock"><span>RESOLUTION RATE</span><strong>70%</strong><i><em style={{width:"70%"}}/></i><small>Demonstration metric</small></div><div className="analyticsBlock"><span>REOPEN RATE</span><strong>6%</strong><i><em style={{width:"6%"}}/></i><small>Recurring after closure</small></div><div className="analyticsBlock"><span>AGENCY RESPONSE PENDING</span><strong>22</strong><small>Leadership action complete; service outcome pending</small></div><div className="auditRule"><ShieldCheck size={16}/><p>Closing or reopening a case never deletes prior actions. Production records retain actor, timestamp, evidence and status history.</p></div></aside>
+  </div>
+ </section>
+}
