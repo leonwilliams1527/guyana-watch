@@ -1,4 +1,4 @@
-"'"use client";
+"use client";
 import {useState} from "react"; import {Search,ShieldCheck,MapPin,Images,UserRound,CheckCircle2,XCircle,MessageSquareWarning,Clock3} from "lucide-react"; import {cases,audit} from "@/data/verification";
 export default function VerificationCenter(){
  const [selected,setSelected]=useState(cases[0]),[filter,setFilter]=useState("All"); const statuses=["All","New","Under Review","Needs Evidence","Verified"],shown=cases.filter(x=>filter==="All"||x.status===filter);
