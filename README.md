@@ -46,3 +46,8 @@ Adds a Source & Extraction Center, monitored official/media source registry, AI 
 Manual entry remains fully available via the `Manual entry` button for projects, promises, budget allocations, contract awards and progress updates.
 
 The ingestion screen is an operational prototype: it demonstrates the workflow and source registry. It does not yet run a backend crawler or autonomous publisher. Production ingestion should use server-side scheduled jobs, source-specific adapters, storage, deduplication, and staff authorization. AI-extracted records must remain reviewable and source-linked.
+
+## Navigation correction
+This replacement package explicitly exposes `Intelligence` in the primary navigation between
+Projects & Promises and Evidence, includes it in the page view routing whitelist, and routes it
+to `IntelligenceCenter`. The Phase 5.1 Intelligence Center and Manual Entry functionality are included.
