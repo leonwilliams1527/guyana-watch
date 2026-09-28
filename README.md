@@ -102,3 +102,19 @@ Key behavior represented in this prototype:
 - Relationships require verification before publication.
 
 This remains a front-end/data-model prototype. Persistent live propagation requires the production database/API and ingestion workers.
+
+# Phase 7 — Live Data Foundation
+
+Moves the prototype toward production architecture.
+
+Included:
+- Data Pipeline tab inside Intelligence
+- Source adapter registry for procurement, fiscal, government announcement and media sources
+- Ingestion run monitoring
+- Canonical data-model viewer
+- PostgreSQL reference schema under `backend/schema.sql`
+- API contract under `backend/API_CONTRACT.md`
+- Field-level provenance and verification design
+- Explicit separation between public verified data and authorized Executive research
+
+Important: this package does NOT falsely claim to be fetching live records. Actual live ingestion requires deployment of a persistent database, server-side source adapters/scrapers or feeds, scheduled jobs, credentials where required, and API routes.
