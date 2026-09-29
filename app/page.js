@@ -1,5 +1,5 @@
-import ContractorSearch from "@/components/ContractorSearch";
 "use client";
+import ContractorSearch from "@/components/ContractorSearch";
 import {useState} from "react";
 import Header from "@/components/Header";
 import MetricCard from "@/components/MetricCard";
