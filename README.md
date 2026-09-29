@@ -121,3 +121,6 @@ Important: this package does NOT falsely claim to be fetching live records. Actu
 
 # Phase 7.1 — NPTA Ingestion + Historical Backfill
 Adds an NPTA-specific server adapter, 6-hour incremental monitoring design, hourly override, contractor normalization, deduplication, verification-first propagation, and a controlled 2012-to-current backfill with per-year coverage reporting. See `/backend/npta_adapter.mjs`, `/backend/BACKFILL_PLAN.md`, and the NPTA Ingestion tab.
+
+# Phase 7.2 — Real 2012 Historical Repository
+The Historical Repository now contains a first batch of real, source-backed 2012 government budget/project records. The UI clearly distinguishes budget/project evidence from contract-award evidence and leaves contractor fields unpopulated until a procurement source supports them. 2012 is correctly marked Partial / Expanding.
