@@ -118,3 +118,6 @@ Included:
 - Explicit separation between public verified data and authorized Executive research
 
 Important: this package does NOT falsely claim to be fetching live records. Actual live ingestion requires deployment of a persistent database, server-side source adapters/scrapers or feeds, scheduled jobs, credentials where required, and API routes.
+
+# Phase 7.1 — NPTA Ingestion + Historical Backfill
+Adds an NPTA-specific server adapter, 6-hour incremental monitoring design, hourly override, contractor normalization, deduplication, verification-first propagation, and a controlled 2012-to-current backfill with per-year coverage reporting. See `/backend/npta_adapter.mjs`, `/backend/BACKFILL_PLAN.md`, and the NPTA Ingestion tab.

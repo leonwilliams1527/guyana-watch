@@ -1,0 +1,3 @@
+export const backfillYears=Array.from({length:15},(_,i)=>({year:2026-i,status:i===0?"Current monitoring":"Queued",coverage:i===0?"Current source available":"Unknown until scan",discovered:0,imported:0,review:0}));
+export const nptaFields=["Procuring Entity","Contract ID No.","Awardee","Contract Description","Contract Amount","Currency","Procurement Method","No. of Tenders/Proposals","Date of Award","Date Uploaded"];
+export const nptaSchedule={normal:"Every 6 hours",highFrequency:"Hourly",historical:"One-time backfill + periodic integrity checks"};
