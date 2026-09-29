@@ -127,3 +127,6 @@ The Historical Repository now contains a first batch of real, source-backed 2012
 
 # Phase 7.3 — Unified Real Project & Promise Repository
 Projects & Promises now renders the real historical repository instead of the five demonstration projects. It supports year, agency, type and keyword filtering; source provenance; explicit missing relationships; and a Promise → Budget → Project → Contract → Contractor chain that never infers missing facts.
+
+# Phase 7.4 — Real Contractor & Contract Repository
+Removes the fictional contractor dataset from the public contractor experience and introduces a source-backed NPTA contractor repository. Contractor profiles are generated from actual identified awards, including contract ID, agency, description, value, procurement method, tender/proposal count, award date, upload date and explicit region where present. Fuzzy search tolerates minor misspellings. Historical 2012 budget projects remain unlinked to contractors unless a verified procurement/project match is found.
