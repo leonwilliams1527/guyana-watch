@@ -130,3 +130,8 @@ Projects & Promises now renders the real historical repository instead of the fi
 
 # Phase 7.4 — Real Contractor & Contract Repository
 Removes the fictional contractor dataset from the public contractor experience and introduces a source-backed NPTA contractor repository. Contractor profiles are generated from actual identified awards, including contract ID, agency, description, value, procurement method, tender/proposal count, award date, upload date and explicit region where present. Fuzzy search tolerates minor misspellings. Historical 2012 budget projects remain unlinked to contractors unless a verified procurement/project match is found.
+
+# Phase 7.5 — Historical Contract Backfill
+The contractor repository now spans 2025 and 2026 instead of showing only 2026. This build adds 22 source-backed 2025 NPTA award rows to the existing repository and introduces an explicit year filter. Records remain source-backed and do not imply completeness for years not yet ingested.
+
+Historical ingestion remains incremental: 2025 is now represented; earlier years (2012–2024) should be added only as verifiable award records are located and normalized.
