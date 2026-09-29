@@ -124,3 +124,6 @@ Adds an NPTA-specific server adapter, 6-hour incremental monitoring design, hour
 
 # Phase 7.2 — Real 2012 Historical Repository
 The Historical Repository now contains a first batch of real, source-backed 2012 government budget/project records. The UI clearly distinguishes budget/project evidence from contract-award evidence and leaves contractor fields unpopulated until a procurement source supports them. 2012 is correctly marked Partial / Expanding.
+
+# Phase 7.3 — Unified Real Project & Promise Repository
+Projects & Promises now renders the real historical repository instead of the five demonstration projects. It supports year, agency, type and keyword filtering; source provenance; explicit missing relationships; and a Promise → Budget → Project → Contract → Contractor chain that never infers missing facts.
