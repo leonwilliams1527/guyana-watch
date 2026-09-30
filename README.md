@@ -144,3 +144,6 @@ Fixes the filtered selection-state bug; explicitly distinguishes BUDGET / PROJEC
 
 # Phase 7.7 — Historical Coverage & Ingestion Center
 Adds a dedicated Coverage view for the 2012–2026 target. It separates 'official source located' from 'records actually ingested', exposes project and contract counts by year, and makes historical gaps visible rather than implying completeness. It also documents the five-stage ingestion workflow and links to the Ministry of Finance Budget Estimates archive and NPTA awarded-contract repository.
+
+# Phase 7.8 — Historical Backfill: 2022–2023
+Adds the first explicit source-level historical backfill queue. The official Ministry of Finance 2022 and 2023 Volume 3 Capital Project Profile documents are registered with direct source links and marked ready for extraction. This phase deliberately does not fabricate project rows from source availability: records count as loaded only after record-level extraction. Budget/project records remain distinct from contract awards and contractors.
