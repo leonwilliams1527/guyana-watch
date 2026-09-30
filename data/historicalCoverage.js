@@ -101,20 +101,20 @@ export const historicalCoverage=[
   },
   {
     "year": 2022,
-    "projects": 0,
+    "projects": 5,
     "contracts": 0,
     "budgetSourceLocated": true,
-    "projectStatus": "Official source verified \u2014 extraction queued",
+    "projectStatus": "Record-level extraction started",
     "contractStatus": "Backfill pending",
     "budgetSourceUrl": "https://finance.gov.gy/wp-content/uploads/2022/01/Budget_Estimates_Volume_3_2022_webVer_reduced.pdf",
     "contractSourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "year": 2023,
-    "projects": 0,
+    "projects": 6,
     "contracts": 0,
     "budgetSourceLocated": true,
-    "projectStatus": "Official source verified \u2014 extraction queued",
+    "projectStatus": "Record-level extraction started",
     "contractStatus": "Backfill pending",
     "budgetSourceUrl": "https://finance.gov.gy/wp-content/uploads/2023/01/Budget_Estimates_Volume_3_2023.pdf",
     "contractSourceUrl": "https://www.npta.gov.gy/tenders-awarded/"

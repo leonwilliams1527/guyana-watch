@@ -147,3 +147,6 @@ Adds a dedicated Coverage view for the 2012–2026 target. It separates 'officia
 
 # Phase 7.8 — Historical Backfill: 2022–2023
 Adds the first explicit source-level historical backfill queue. The official Ministry of Finance 2022 and 2023 Volume 3 Capital Project Profile documents are registered with direct source links and marked ready for extraction. This phase deliberately does not fabricate project rows from source availability: records count as loaded only after record-level extraction. Budget/project records remain distinct from contract awards and contractors.
+
+# Phase 7.9 — Actual 2022–2023 Project Extraction
+Begins record-level extraction from the official Ministry of Finance Volume 3 PDFs. Eleven verified project profiles are now stored across 2022 and 2023 with project reference, title, agency, geography, status, dates, description/source context and direct PDF provenance. Values are only populated where the specific amount was directly verified; otherwise the UI explicitly says 'Amount extraction pending' rather than guessing. These remain BUDGET / PROJECT records, not contract awards.
