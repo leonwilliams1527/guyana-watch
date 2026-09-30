@@ -135,3 +135,6 @@ Removes the fictional contractor dataset from the public contractor experience a
 The contractor repository now spans 2025 and 2026 instead of showing only 2026. This build adds 22 source-backed 2025 NPTA award rows to the existing repository and introduces an explicit year filter. Records remain source-backed and do not imply completeness for years not yet ingested.
 
 Historical ingestion remains incremental: 2025 is now represented; earlier years (2012–2024) should be added only as verifiable award records are located and normalized.
+
+# Phase 7.6 — Multi-Year Project & Budget Repository
+Projects & Promises is no longer 2012-only. This build adds official source-backed capital-project records from 2024, 2025 and 2026 and makes the project-year filter data-driven. The repository now visibly spans 2012, 2024, 2025 and 2026. Missing years are not presented as populated until verified records are ingested. Contract/contractor relationships remain blank unless independently verified.
