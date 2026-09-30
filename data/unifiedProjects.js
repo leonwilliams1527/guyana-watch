@@ -19,7 +19,9 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2012 Estimates Volume 1",
     "sourcePage": 442,
     "verification": "Verified Official Record",
-    "coverage": "Historical Record — Partial Coverage"
+    "coverage": "Historical Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/budget/budget-estimates/"
   },
   {
     "id": "HIST-1401900",
@@ -41,7 +43,9 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2012 Estimates Volume 1",
     "sourcePage": 442,
     "verification": "Verified Official Record",
-    "coverage": "Historical Record — Partial Coverage"
+    "coverage": "Historical Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/budget/budget-estimates/"
   },
   {
     "id": "HIST-1402700",
@@ -63,7 +67,9 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2012 Estimates Volume 1",
     "sourcePage": 442,
     "verification": "Verified Official Record",
-    "coverage": "Historical Record — Partial Coverage"
+    "coverage": "Historical Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/budget/budget-estimates/"
   },
   {
     "id": "HIST-1402800",
@@ -85,7 +91,9 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2012 Estimates Volume 1",
     "sourcePage": 442,
     "verification": "Verified Official Record",
-    "coverage": "Historical Record — Partial Coverage"
+    "coverage": "Historical Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/budget/budget-estimates/"
   },
   {
     "id": "HIST-1402900",
@@ -107,7 +115,9 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2012 Estimates Volume 1",
     "sourcePage": 442,
     "verification": "Verified Official Record",
-    "coverage": "Historical Record — Partial Coverage"
+    "coverage": "Historical Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/budget/budget-estimates/"
   },
   {
     "id": "HIST-1500402",
@@ -129,7 +139,9 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2012 Estimates Volume 1",
     "sourcePage": 442,
     "verification": "Verified Official Record",
-    "coverage": "Historical Record — Partial Coverage"
+    "coverage": "Historical Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/budget/budget-estimates/"
   },
   {
     "id": "HIST-1500405",
@@ -151,7 +163,9 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2012 Estimates Volume 1",
     "sourcePage": 442,
     "verification": "Verified Official Record",
-    "coverage": "Historical Record — Partial Coverage"
+    "coverage": "Historical Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/budget/budget-estimates/"
   },
   {
     "id": "HIST-1600900",
@@ -173,7 +187,9 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2012 Estimates Volume 1",
     "sourcePage": 443,
     "verification": "Verified Official Record",
-    "coverage": "Historical Record — Partial Coverage"
+    "coverage": "Historical Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/budget/budget-estimates/"
   },
   {
     "id": "HIST-2601100",
@@ -195,7 +211,9 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2012 Estimates Volume 1",
     "sourcePage": 424,
     "verification": "Verified Official Record",
-    "coverage": "Historical Record — Partial Coverage"
+    "coverage": "Historical Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/budget/budget-estimates/"
   },
   {
     "id": "HIST-1900400",
@@ -217,7 +235,9 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2012 Estimates Volume 1",
     "sourcePage": 425,
     "verification": "Verified Official Record",
-    "coverage": "Historical Record — Partial Coverage"
+    "coverage": "Historical Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/budget/budget-estimates/"
   },
   {
     "id": "HIST-3401000",
@@ -239,7 +259,9 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2012 Estimates Volume 1",
     "sourcePage": 425,
     "verification": "Verified Official Record",
-    "coverage": "Historical Record — Partial Coverage"
+    "coverage": "Historical Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/budget/budget-estimates/"
   },
   {
     "id": "HIST-4400700",
@@ -261,7 +283,9 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2012 Estimates Volume 1",
     "sourcePage": 425,
     "verification": "Verified Official Record",
-    "coverage": "Historical Record — Partial Coverage"
+    "coverage": "Historical Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/budget/budget-estimates/"
   },
   {
     "id": "MOF-2025-62",
@@ -283,7 +307,9 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2025 Budget Estimates Volume 3",
     "sourcePage": 83,
     "verification": "Verified Official Record",
-    "coverage": "Historical Record — Partial Coverage"
+    "coverage": "Historical Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/wp-content/uploads/2025/01/BudgetEstimates_2025_Volume3.pdf"
   },
   {
     "id": "MOF-2025-121",
@@ -305,7 +331,9 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2025 Budget Estimates Volume 3",
     "sourcePage": 142,
     "verification": "Verified Official Record",
-    "coverage": "Historical Record — Partial Coverage"
+    "coverage": "Historical Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/wp-content/uploads/2025/01/BudgetEstimates_2025_Volume3.pdf"
   },
   {
     "id": "MOF-2025-203",
@@ -327,7 +355,9 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2025 Budget Estimates Volume 3",
     "sourcePage": 224,
     "verification": "Verified Official Record",
-    "coverage": "Historical Record — Partial Coverage"
+    "coverage": "Historical Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/wp-content/uploads/2025/01/BudgetEstimates_2025_Volume3.pdf"
   },
   {
     "id": "MOF-2025-204",
@@ -349,7 +379,9 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2025 Budget Estimates Volume 3",
     "sourcePage": 225,
     "verification": "Verified Official Record",
-    "coverage": "Historical Record — Partial Coverage"
+    "coverage": "Historical Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/wp-content/uploads/2025/01/BudgetEstimates_2025_Volume3.pdf"
   },
   {
     "id": "MOF-2024-237",
@@ -371,7 +403,9 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2024 Budget Estimates Volume 3",
     "sourcePage": 257,
     "verification": "Verified Official Record",
-    "coverage": "Historical Record — Partial Coverage"
+    "coverage": "Historical Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/wp-content/uploads/2024/01/BudgetEstimates_2024_Volume3.pdf"
   },
   {
     "id": "MOF-2026-58",
@@ -393,6 +427,8 @@ export const unifiedProjects=[
     "source": "Ministry of Finance — 2026 Budget Estimates Volume 3",
     "sourcePage": null,
     "verification": "Verified Official Record",
-    "coverage": "Current Record — Partial Coverage"
+    "coverage": "Current Record — Partial Coverage",
+    "recordClass": "BUDGET / PROJECT",
+    "sourceUrl": "https://finance.gov.gy/wp-content/uploads/2026/01/BudgetEstimates_2026_Volume3.pdf"
   }
 ];

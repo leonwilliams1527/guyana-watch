@@ -11,7 +11,9 @@ export const realContracts=[
     "awardDate": "17-Jul-26",
     "uploadDate": "18-Jul-26",
     "region": "Not explicitly stated",
-    "year": 2026
+    "year": 2026,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "16/2026/21",
@@ -25,7 +27,9 @@ export const realContracts=[
     "awardDate": "30-Mar-26",
     "uploadDate": "31-Mar-26",
     "region": "Region 2",
-    "year": 2026
+    "year": 2026,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "30/2026/31",
@@ -39,7 +43,9 @@ export const realContracts=[
     "awardDate": "17-Jul-26",
     "uploadDate": "18-Jul-26",
     "region": "Not explicitly stated",
-    "year": 2026
+    "year": 2026,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "95/2026/34-A",
@@ -53,7 +59,9 @@ export const realContracts=[
     "awardDate": "10-Jul-26",
     "uploadDate": "11-Jul-26",
     "region": "Not explicitly stated",
-    "year": 2026
+    "year": 2026,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "95/2026/34-B",
@@ -67,7 +75,9 @@ export const realContracts=[
     "awardDate": "10-Jul-26",
     "uploadDate": "11-Jul-26",
     "region": "Not explicitly stated",
-    "year": 2026
+    "year": 2026,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "28/2026/31",
@@ -81,7 +91,9 @@ export const realContracts=[
     "awardDate": "17-Jul-26",
     "uploadDate": "18-Jul-26",
     "region": "Not explicitly stated",
-    "year": 2026
+    "year": 2026,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "04/2026/73",
@@ -95,7 +107,9 @@ export const realContracts=[
     "awardDate": "26-Jun-26",
     "uploadDate": "27-Jun-26",
     "region": "Region 3",
-    "year": 2026
+    "year": 2026,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "07/2026/73",
@@ -109,7 +123,9 @@ export const realContracts=[
     "awardDate": "26-Jun-26",
     "uploadDate": "27-Jun-26",
     "region": "Region 3",
-    "year": 2026
+    "year": 2026,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "20/2026/31",
@@ -123,7 +139,9 @@ export const realContracts=[
     "awardDate": "17-Jul-26",
     "uploadDate": "18-Jul-26",
     "region": "Not explicitly stated",
-    "year": 2026
+    "year": 2026,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "43/2026/34",
@@ -137,7 +155,9 @@ export const realContracts=[
     "awardDate": "10-Jul-26",
     "uploadDate": "11-Jul-26",
     "region": "Region 4",
-    "year": 2026
+    "year": 2026,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "16/2026/45",
@@ -151,7 +171,9 @@ export const realContracts=[
     "awardDate": "10-Jul-26",
     "uploadDate": "11-Jul-26",
     "region": "Region 7",
-    "year": 2026
+    "year": 2026,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "17/2026/71",
@@ -165,7 +187,9 @@ export const realContracts=[
     "awardDate": "28-May-26",
     "uploadDate": "29-May-26",
     "region": "Region 1",
-    "year": 2026
+    "year": 2026,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "461/2025/40",
@@ -179,7 +203,9 @@ export const realContracts=[
     "awardDate": "20-Apr-26",
     "uploadDate": "21-Apr-26",
     "region": "Not explicitly stated",
-    "year": 2026
+    "year": 2026,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "52/2026/53",
@@ -193,7 +219,9 @@ export const realContracts=[
     "awardDate": "20-Apr-26",
     "uploadDate": "21-Apr-26",
     "region": "Not explicitly stated",
-    "year": 2026
+    "year": 2026,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "53/2026/53",
@@ -207,7 +235,9 @@ export const realContracts=[
     "awardDate": "20-Apr-26",
     "uploadDate": "21-Apr-26",
     "region": "Not explicitly stated",
-    "year": 2026
+    "year": 2026,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "489/2025/21-L19",
@@ -221,7 +251,9 @@ export const realContracts=[
     "awardDate": "31-Dec-25",
     "uploadDate": "01-Jan-26",
     "region": "Region 5",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "489/2025/21-L32",
@@ -235,7 +267,9 @@ export const realContracts=[
     "awardDate": "31-Dec-25",
     "uploadDate": "01-Jan-26",
     "region": "Region 5",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "489/2025/21-L31",
@@ -249,7 +283,9 @@ export const realContracts=[
     "awardDate": "31-Dec-25",
     "uploadDate": "01-Jan-26",
     "region": "Region 5",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "489/2025/21-L30",
@@ -263,7 +299,9 @@ export const realContracts=[
     "awardDate": "31-Dec-25",
     "uploadDate": "01-Jan-26",
     "region": "Region 5",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "694/2025/51",
@@ -277,7 +315,9 @@ export const realContracts=[
     "awardDate": "31-Dec-25",
     "uploadDate": "01-Jan-26",
     "region": "Not explicitly stated",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "318/2025/47",
@@ -291,7 +331,9 @@ export const realContracts=[
     "awardDate": "31-Dec-25",
     "uploadDate": "01-Jan-26",
     "region": "Region 8",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "503/2025/21",
@@ -305,7 +347,9 @@ export const realContracts=[
     "awardDate": "31-Dec-25",
     "uploadDate": "01-Jan-26",
     "region": "Not explicitly stated",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "198/2025/03",
@@ -319,7 +363,9 @@ export const realContracts=[
     "awardDate": "31-Dec-25",
     "uploadDate": "01-Jan-26",
     "region": "Not explicitly stated",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "06/2025/71",
@@ -333,7 +379,9 @@ export const realContracts=[
     "awardDate": "30-Dec-25",
     "uploadDate": "31-Dec-25",
     "region": "Region 1",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "905/2025/51",
@@ -347,7 +395,9 @@ export const realContracts=[
     "awardDate": "30-Dec-25",
     "uploadDate": "31-Dec-25",
     "region": "Region 3",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "906/2025/51",
@@ -361,7 +411,9 @@ export const realContracts=[
     "awardDate": "30-Dec-25",
     "uploadDate": "31-Dec-25",
     "region": "Region 6",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "930/2025/40",
@@ -375,7 +427,9 @@ export const realContracts=[
     "awardDate": "24-Dec-25",
     "uploadDate": "25-Dec-25",
     "region": "Region 4",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "864/2025/40",
@@ -389,7 +443,9 @@ export const realContracts=[
     "awardDate": "24-Dec-25",
     "uploadDate": "25-Dec-25",
     "region": "Region 4",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "79/2025/45-A",
@@ -403,7 +459,9 @@ export const realContracts=[
     "awardDate": "24-Dec-25",
     "uploadDate": "25-Dec-25",
     "region": "Not explicitly stated",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "79/2025/45-B",
@@ -417,7 +475,9 @@ export const realContracts=[
     "awardDate": "24-Dec-25",
     "uploadDate": "25-Dec-25",
     "region": "Not explicitly stated",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "127/2025/45",
@@ -431,7 +491,9 @@ export const realContracts=[
     "awardDate": "24-Dec-25",
     "uploadDate": "25-Dec-25",
     "region": "Region 4",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "15/2025/71",
@@ -445,7 +507,9 @@ export const realContracts=[
     "awardDate": "19-Dec-25",
     "uploadDate": "20-Dec-25",
     "region": "Region 1",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "197/2025/21",
@@ -459,7 +523,9 @@ export const realContracts=[
     "awardDate": "19-Dec-25",
     "uploadDate": "20-Dec-25",
     "region": "Region 2",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "85/2025/13",
@@ -473,7 +539,9 @@ export const realContracts=[
     "awardDate": "03-Dec-25",
     "uploadDate": "04-Dec-25",
     "region": "Region 4",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "137/2025/31-ACS",
@@ -487,7 +555,9 @@ export const realContracts=[
     "awardDate": "07-Oct-25",
     "uploadDate": "08-Oct-25",
     "region": "Region 10",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "137/2025/31-CMDC",
@@ -501,7 +571,9 @@ export const realContracts=[
     "awardDate": "07-Oct-25",
     "uploadDate": "08-Oct-25",
     "region": "Region 10",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   },
   {
     "id": "656/2025/40",
@@ -515,7 +587,9 @@ export const realContracts=[
     "awardDate": "07-Oct-25",
     "uploadDate": "08-Oct-25",
     "region": "Region 4",
-    "year": 2025
+    "year": 2025,
+    "recordClass": "CONTRACT AWARD",
+    "sourceUrl": "https://www.npta.gov.gy/tenders-awarded/"
   }
 ];
 export const contractSource='NPTA / Tenders Awarded';

@@ -138,3 +138,6 @@ Historical ingestion remains incremental: 2025 is now represented; earlier years
 
 # Phase 7.6 — Multi-Year Project & Budget Repository
 Projects & Promises is no longer 2012-only. This build adds official source-backed capital-project records from 2024, 2025 and 2026 and makes the project-year filter data-driven. The repository now visibly spans 2012, 2024, 2025 and 2026. Missing years are not presented as populated until verified records are ingested. Contract/contractor relationships remain blank unless independently verified.
+
+# Phase 7.6.1 — Record Classification, Source Links & Currency QA
+Fixes the filtered selection-state bug; explicitly distinguishes BUDGET / PROJECT from CONTRACT AWARD; adds original-source links to loaded project and contract records; and standardizes G$ presentation so, for example, G$1,500M is displayed as G$1.5 billion. Exact values remain available on detailed records.
