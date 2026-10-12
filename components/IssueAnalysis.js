@@ -1,0 +1,8 @@
+'use client';
+import {useState} from 'react';
+export default function IssueAnalysis({issue,onClose}){
+ const [answer,setAnswer]=useState('');const [loading,setLoading]=useState(false);const [error,setError]=useState('');
+ async function analyze(){setLoading(true);setError('');setAnswer('');try{const res=await fetch('/api/analysis',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({issue})});const json=await res.json();if(!res.ok)throw new Error(json.error||'Analysis unavailable');setAnswer(json.analysis)}catch(e){setError(e.message)}finally{setLoading(false)}}
+ function download(){const blob=new Blob([`GUYANA WATCH — AI ANALYSIS\n${issue.title}\n\n${answer}`],{type:'text/plain'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=`GW-Analysis-${issue.id}.txt`;a.click();URL.revokeObjectURL(url)}
+ return <section className="gwWorkspace"><button className="gwBack" onClick={onClose}>← Back to evidence</button><span className="eyebrow green">ISSUE REVIEW</span><h2>{issue.title}</h2><p>{issue.location} · {issue.id}</p><div className="gwFormPanel"><p><strong>Evidence status:</strong> This is demonstration data without independently verified source documents. AI must not treat it as an established fact.</p><div className="gwActions"><button disabled={loading} onClick={analyze}>{loading?'Analyzing…':'AI Analysis'}</button>{answer&&<button onClick={download}>Generate Brief (.txt)</button>}</div>{error&&<p role="alert" className="gwError">{error}</p>}{answer&&<pre className="gwAnalysis">{answer}</pre>}</div></section>
+}
