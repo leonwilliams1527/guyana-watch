@@ -1,0 +1,9 @@
+'use client';
+import {useState} from 'react';
+import {reports} from '@/data/reviewIssues';
+export default function EvidenceBriefings({mode='Evidence',onOpenIssue}){
+ const [selected,setSelected]=useState(reports[0].id);
+ const issue=reports.find(x=>x.id===selected)||reports[0];
+ const download=()=>{const content=[`GUYANA WATCH — DRAFT EVIDENCE BRIEF`, `Issue: ${issue.title}`,`Reference: ${issue.id}`,`Location: ${issue.location}`,`Status: Demonstration record — NOT VERIFIED`, `Source: No independent source attached`, ``, `Evidence assessment: The source package identifies this as demonstration data. Do not treat it as a substantiated claim.`, `Oversight options: Request original agency records, obtain an official response, verify timelines and publish corrections as needed.`, `Prepared: ${new Date().toISOString()}`].join('\n'); const blob=new Blob([content],{type:'text/plain'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=`GW-Brief-${issue.id}.txt`;a.click();URL.revokeObjectURL(url)};
+ return <section className="gwWorkspace"><span className="eyebrow green">EVIDENCE & ACCOUNTABILITY</span><h2>{mode==='Briefings'?'Generate Briefings':'Evidence Repository'}</h2><p>Review the selected issue and its evidence status before preparing a briefing. The sample issues below are demonstration records, not verified public claims.</p><div className="gwFormPanel"><label>Select issue<select value={selected} onChange={e=>setSelected(e.target.value)}>{reports.map(x=><option key={x.id} value={x.id}>{x.id} — {x.title}</option>)}</select></label><h3>{issue.title}</h3><p>{issue.location} · {issue.severity} · Unverified demonstration record</p><p><strong>Source verification:</strong> No documentary evidence attached to this demonstration record.</p><div className="gwActions"><button onClick={()=>onOpenIssue(issue)}>AI Analysis</button><button onClick={download}>Generate Brief (.txt)</button></div></div></section>
+}

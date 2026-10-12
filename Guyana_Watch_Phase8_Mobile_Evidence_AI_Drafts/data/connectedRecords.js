@@ -1,0 +1,8 @@
+export const connectedRecords=[
+ {id:"REL-001",promiseId:"PROM-041",promise:"Improve waterfront access and drainage",budgetId:"BUD-026",budget:"Infrastructure programme allocation",projectId:"PRJ-205",project:"East Bank Road Rehabilitation",contractId:"NPTA-26-0418",contractorId:"CTR-001",contractor:"Demerara Infrastructure Ltd.",agency:"Procuring entity — demo",value:"G$423,353,150",region:"Region 4",location:"Georgetown / East Bank area",status:"Awarded",deadline:"Not provided",progress:"42%",source:"NPTA / Awarded Contracts",verified:true},
+ {id:"REL-002",promiseId:"PROM-036",promise:"Improve drainage capacity in flood-prone communities",budgetId:"BUD-021",budget:"Drainage works allocation",projectId:"PRJ-204",project:"Linden Drainage Improvement",contractId:"NPTA-26-0194",contractorId:"CTR-004",contractor:"Rupununi Construction & Logistics Ltd.",agency:"Regional entity — demo",value:"G$701M",region:"Region 10",location:"Linden",status:"In Progress",deadline:"Dec 2026",progress:"64%",source:"Official award record",verified:true},
+ {id:"REL-003",promiseId:"PROM-030",promise:"Improve water reliability and reduce service interruptions",budgetId:"BUD-018",budget:"Water infrastructure allocation",projectId:"PRJ-203",project:"Region 6 Water Reliability Works",contractId:"NPTA-26-0117",contractorId:"CTR-003",contractor:"Essequibo Engineering Services",agency:"Utility entity — demo",value:"G$544M",region:"Region 6",location:"New Amsterdam area",status:"At Risk",deadline:"Nov 2026",progress:"36%",source:"Official award record",verified:true}
+];
+
+export function linksForProject(id){return connectedRecords.filter(x=>x.projectId===id)}
+export function linksForContractor(id){return connectedRecords.filter(x=>x.contractorId===id)}

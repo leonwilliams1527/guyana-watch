@@ -1,0 +1,11 @@
+# NPTA Historical Backfill — 2012 to Current
+- Snapshot source data and preserve retrieval metadata.
+- Partition by award year.
+- Normalize contractor and agency names without silent merges.
+- Deduplicate using contract ID + contractor + description + value.
+- Match/create canonical contractors and contracts.
+- Propose project links; uncertain matches go to review.
+- Preserve field-level provenance.
+- Score each year for source coverage.
+- After backfill, switch to 6-hour incremental monitoring.
+- Older records absent from the current page require separate archived-official-source adapters.

@@ -1,0 +1,6 @@
+export const cases=[
+{id:"GW-1042",title:"Recurring flooding after rainfall",place:"Georgetown · Albouystown",street:"La Penitence Street",category:"Drainage & Flooding",severity:"Critical",status:"New",evidence:7,duplicates:3,assignee:"Unassigned",lat:"6.7931",lng:"-58.1588"},
+{id:"GW-1041",title:"Large road failure affecting traffic",place:"New Amsterdam",street:"Main Street",category:"Roads & Bridges",severity:"High",status:"Under Review",evidence:4,duplicates:1,assignee:"Regional Review Team",lat:"6.2500",lng:"-57.5167"},
+{id:"GW-1039",title:"Extended water interruption",place:"Linden · Mackenzie",street:"Republic Avenue",category:"Water",severity:"High",status:"Needs Evidence",evidence:2,duplicates:0,assignee:"Field Verification",lat:"6.0081",lng:"-58.3071"},
+{id:"GW-1037",title:"Non-operational streetlights",place:"Georgetown · Campbellville",street:"Sheriff Street",category:"Electricity",severity:"Normal",status:"Verified",evidence:5,duplicates:2,assignee:"Research Desk",lat:"6.8192",lng:"-58.1410"}];
+export const audit=[["09:14","Verification Team","Opened GW-1041 for review"],["08:58","Research Desk","Marked GW-1037 verified"],["08:31","Field Verification","Requested more evidence for GW-1039"],["08:05","System","Flagged 3 possible duplicates for GW-1042"]];
